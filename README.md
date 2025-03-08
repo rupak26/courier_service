@@ -55,8 +55,8 @@ SELECT METHOD ON POSTMAN FIRST AND THEN TRY OUT THIS API ENDPOINTS
 ```
 - "GET"   'package/create/'                - List all packages
 - "POST"  'package/create/'                - Create a package
-- "GET"   'package/create/{id}/'           - Retrieve a package
-- "PUT"   'package/create/{id}/'           - Update a package
+- "PUT"   'package/create/{id}/'           - Update full package
+- "PATCH"   'package/create/{id}/'         - Update part of a package
 - "DELETE"  'package/create/{id}/'         - Remove a package
 ```
 ## Technologies Used
