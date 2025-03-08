@@ -44,16 +44,18 @@ This is a Django-based API for a courier service, handling packages, users, and 
 ## API Endpoints
     BASE-URL ----  http://127.0.0.1:8000/
 ### Authentication
+```
 - "POST" '/user/register/'           - Register a new user
 - "POST" '/user/login/'              - Authenticate and receive a token
-
+```
 ### Package Management
+```
 - "GET"  'package/create/'                - List all packages
 - "POST" 'package/create/'                - Create a package
 - "GET"  'package/create/{id}/'           - Retrieve a package
 - "PUT"  'package/create/{id}/'           - Update a package
 - "DELETE" 'package/create/{id}/'         - Remove a package
-
+```
 ## Technologies Used
 - **Django** (backend framework)
 - **Django Rest Framework (DRF)** (API implementation)
